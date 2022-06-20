@@ -1,0 +1,24 @@
+.vertical-menu {
+  width: 100%;
+}
+
+.vertical-menu a {
+  background-color: grey;
+  color: black;
+  display: block;
+  padding: 20px;
+  text-decoration: none;
+}
+
+.vertical-menu a:hover {
+  background-color: #d3fc03;
+}
+
+.vertical-menu a.active {
+  background-color: #4CAF50;
+  color: white;
+}
+  a href="index.php" 
+  a href="Form.php" 
+  a href="Summary.php" 
+  a href="Database.php"
