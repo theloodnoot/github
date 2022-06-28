@@ -83,47 +83,11 @@ function createnewMovie(){
                 <div class="col-6">
                     <form method="post">
 
-                        <div class="form-group col-md-6">
-                            <label class="control-label labelFont">User Name</label>
-                            <input class="form-control" type="text" name = "uname">
-                            <span class="text-danger"><?php echo $erroruname; ?></span>
-                        </div>
+                  
+                
 
-                        <div class="form-group col-md-6">
-                            <label class="control-label labelFont">First Name</label>
-                            <input class="form-control" type="text" name = "fname">
-                            <span class="text-danger"><?php echo $errorfname; ?></span>
-                        </div>
-
-                        <div class="form-group col-md-6">
-                            <label class="control-label labelFont">Last Name</label>
-                            <input class="form-control" type="text" name = "lname">
-                            <span class="text-danger"><?php echo $errorlname; ?></span>
-                        </div>
-
-                        <div class="form-group col-md-6">
-                            <label class="control-label labelFont">Date of Birth</label>
-                            <input class="form-control" type="text" name = "dob">
-                            <span class="text-danger"><?php echo $errordob; ?></span>
-                        </div>
-
-                        <div class="form-group col-md-6">
-                            <label class="control-label labelFont">Password</label>
-                            <input class="form-control" type="password" name = "pwd">
-                            <span class="text-danger"><?php echo $errorpwd; ?></span>
-                        </div>
-
-                        <div class="form-group col-md-6">
-                            <label class="control-label labelFont">Email Address</label>
-                            <input class="form-control" type="text" name = "mal">
-                            <span class="text-danger"><?php echo $erroremail; ?></span>
-                        </div>
-
-                        <div class="form-group col-md-6">
-                            <label class="control-label labelFont">Occupation</label>
-                            <input class="form-control" type="text" name = "oc">
-                            <span class="text-danger"><?php echo $erroroc; ?></span>
-                        </div>
+                       
+                        
 
                         <div class="form-group col-md-4">
                             <input class="btn btn-primary" type="submit" value="Create User" name ="submit">
